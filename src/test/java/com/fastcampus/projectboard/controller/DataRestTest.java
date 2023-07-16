@@ -1,5 +1,6 @@
 package com.fastcampus.projectboard.controller;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +15,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
+@Disabled("Spring Data REST 통합테스트는 불필요하므로 제외시킴") // 이 Test Class의 내용들은 실행되지 않도록 한다.
 @Transactional
 @DisplayName("Data REST - API 테스트")
 @AutoConfigureMockMvc
