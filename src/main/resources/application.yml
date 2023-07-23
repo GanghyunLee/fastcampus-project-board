@@ -24,3 +24,5 @@ spring:
   data.rest:
     base-path: /api
     detection-strategy: annotated # 기본은 default
+  thymeleaf3:
+    decoupled-logic: true
